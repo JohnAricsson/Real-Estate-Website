@@ -16,12 +16,12 @@ const Navbar = () => {
   return (
     <div className='absolute top-0 left-0 w-full z-10'>
       <div className='container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent'>
-        <img className='w-12 h-12 md:w-17 md:h-17 ' src={assets.logo} alt=''/>
+        <img className='w-12 h-12 md:w-15 md:h-15 ' src={assets.logo} alt=''/>
         <ul className='hidden md:flex gap-7 text-white text-2xl font-medium'>
-            <a href='#Header' className='hover:underline cursor-pointer hover:text-blue-500 '>Home</a>
-            <a href='#About' className='hover:underline cursor-pointer hover:text-blue-500'>About</a>
-            <a href='#Projects' className='hover:underline cursor-pointer hover:text-blue-500'>Projects</a>
-            <a href='#Testimonials' className='hover:underline cursor-pointer hover:text-blue-500'>Testimonials</a>   
+            <a href='#Header' className='hover:underline cursor-pointer  '>Home</a>
+            <a href='#About' className='hover:underline cursor-pointer '>About</a>
+            <a href='#Projects' className='hover:underline cursor-pointer '>Projects</a>
+            <a href='#Testimonials' className='hover:underline cursor-pointer '>Testimonials</a>   
         </ul>
         <button className='hidden md:block bg-white px-8 py-2 rounded-full'>Sign up</button>
         <img onClick={()=>setShowMobileMenu(true)} src={assets.menu_icon} className='md:hidden w-7 cursor-pointer'/>        
@@ -36,7 +36,6 @@ const Navbar = () => {
           <a onClick={()=>setShowMobileMenu(false)} href="#About" className='px-4 py-2 rounded-full inline-block'>About</a>
           <a onClick={()=>setShowMobileMenu(false)} href="#Projects" className='px-4 py-2 rounded-full inline-block'>Projects</a>
           <a onClick={()=>setShowMobileMenu(false)} href="#Testimonials" className='px-4 py-2 rounded-full inline-block'>Testimonials</a>
-
          </ul>
       </div>
     </div>
