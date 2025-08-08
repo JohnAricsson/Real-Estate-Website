@@ -4,3 +4,9 @@
 *{
     font-family: Outfit;
 }
+
+.slick-prev:before,
+.slick-next:before {
+  color: black !important; 
+  font-size: 30px;
+}
