@@ -37,7 +37,7 @@ const Contact = () => {
       transition={{duration:1.5}}
       whileInView={{opacity: 1, y:0}}
       viewport={{once: false}}
-    className='text-center md:mb-50 p-6 py-20 lg:px-32  w-full overflow-hidden' id='Contact'> 
+    className='text-center mx-auto mb-50  p-6 py-20 lg:px-32  w-full overflow-hidden scroll-mt-20' id='Contact'> 
       <h1 className='text-2xl sm:text-4xl font-bold mb-2 text-center'>Contact <span className='underline underline-offset-4 decoration-1 under font-light'>With Us</span></h1>
       <p className='text-center text-gray-500 mb-12 max-w-80 mx-auto'>Ready to Make a Move?  Let's Build Your Future Together</p>
 
